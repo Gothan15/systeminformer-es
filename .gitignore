@@ -1,3 +1,7 @@
 # El clon del proyecto original es solo la referencia de medición:
 # no forma parte de este repositorio.
 upstream/
+
+# Lotes de trabajo de cada tanda de traducción: material intermedio,
+# la memoria válida es el catálogo ya fusionado.
+traduccion/lotes/

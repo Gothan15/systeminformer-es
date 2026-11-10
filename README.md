@@ -6,10 +6,9 @@ El proyecto original solo se publica en inglés —su issue de traducciones
 lleva abierto desde 2018—, así que este repositorio organiza el trabajo de
 traducirlo con un alcance cerrado y medido.
 
-## Estado: fase 0 — medición hecha
+## Estado: fase 1 — diálogos traducidos
 
-Antes de traducir una sola línea se midió el tamaño real del trabajo.
-El informe completo está en **[INFORME-MEDIDA.md](INFORME-MEDIDA.md)**;
+La medición previa está en **[INFORME-MEDIDA.md](INFORME-MEDIDA.md)**;
 el resumen corto:
 
 - La interfaz que se ve a diario son **≈2.000 cadenas / ≈6.100 palabras**
