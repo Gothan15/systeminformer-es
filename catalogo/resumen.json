@@ -1,0 +1,96 @@
+{
+  "ficheros_codigo_escaneados": 628,
+  "ficheros_rc_escaneados": 26,
+  "ambitos": {
+    "app": {
+      "ficheros": 169,
+      "literales_totales": 8418,
+      "unicas_visibles": 4402,
+      "palabras_visibles": 11595
+    },
+    "phlib": {
+      "ficheros": 174,
+      "literales_totales": 2282,
+      "unicas_visibles": 1047,
+      "palabras_visibles": 1882
+    },
+    "plugins": {
+      "ficheros": 285,
+      "literales_totales": 22451,
+      "unicas_visibles": 11932,
+      "palabras_visibles": 26590
+    }
+  },
+  "rc": {
+    "cadenas_unicas_totales": 1200,
+    "unicas_visibles": 831,
+    "palabras_visibles": 2056
+  },
+  "codigo": {
+    "cadenas_unicas_totales": 19302,
+    "unicas_visibles": 16706,
+    "palabras_visibles": 39099
+  },
+  "archivos_con_mas_cadenas_visibles": [
+    {
+      "archivo": "plugins/NetworkTools/ports.c",
+      "apariciones_visibles": 11390
+    },
+    {
+      "archivo": "plugins/ExtendedTools/smbios.c",
+      "apariciones_visibles": 1195
+    },
+    {
+      "archivo": "SystemInformer/SystemInformer.rc",
+      "apariciones_visibles": 1194
+    },
+    {
+      "archivo": "plugins/AgentTools/schema.c",
+      "apariciones_visibles": 836
+    },
+    {
+      "archivo": "SystemInformer/tokprp.c",
+      "apariciones_visibles": 521
+    },
+    {
+      "archivo": "SystemInformer/include/phsettings.h",
+      "apariciones_visibles": 518
+    },
+    {
+      "archivo": "phlib/secdata.c",
+      "apariciones_visibles": 477
+    },
+    {
+      "archivo": "SystemInformer/actions.c",
+      "apariciones_visibles": 368
+    },
+    {
+      "archivo": "SystemInformer/informerwnd.c",
+      "apariciones_visibles": 364
+    },
+    {
+      "archivo": "plugins/WindowExplorer/wndprp.c",
+      "apariciones_visibles": 326
+    },
+    {
+      "archivo": "plugins/ExtendedTools/efi_guid_list.h",
+      "apariciones_visibles": 321
+    },
+    {
+      "archivo": "SystemInformer/options.c",
+      "apariciones_visibles": 285
+    },
+    {
+      "archivo": "SystemInformer/hndlprp.c",
+      "apariciones_visibles": 261
+    },
+    {
+      "archivo": "plugins/HardwareDevices/devicetree.c",
+      "apariciones_visibles": 256
+    },
+    {
+      "archivo": "plugins/ExtendedTools/wbcl.c",
+      "apariciones_visibles": 206
+    }
+  ]
+}

@@ -1,0 +1,832 @@
+﻿cadena_en,traduccion_es,apariciones,archivo,linea
+"#include ""include/phappres.h""\0",,2,SystemInformer/SystemInformer.rc,35
+"#include ""phappres.h""\0",,12,plugins/AgentTools/version.rc,36
+"#include ""winres.h""\0",,10,plugins/DotNetTools/DotNetTools.rc,34
+"#include ""winres.h""\r\n",,16,SystemInformer/SystemInformer.rc,34
+&Browse...,,1,SystemInformer/SystemInformer.rc,1690
+&Empty,,2,SystemInformer/SystemInformer.rc,1317
+&More,,1,SystemInformer/SystemInformer.rc,1309
+&Ok,,1,SystemInformer/SystemInformer.rc,1869
+&Open:,,1,SystemInformer/SystemInformer.rc,1686
+&Pause,,1,SystemInformer/SystemInformer.rc,238
+&Scan,,1,SystemInformer/SystemInformer.rc,371
+&Show one graph per CPU,,1,SystemInformer/SystemInformer.rc,1156
+&Start,,1,SystemInformer/SystemInformer.rc,237
+&System variables,,1,SystemInformer/SystemInformer.rc,1556
+&User variables,,1,SystemInformer/SystemInformer.rc,1555
+(Repurposed),,1,SystemInformer/SystemInformer.rc,1434
+.NET assemblies,,2,plugins/DotNetTools/DotNetTools.rc,61
+.NET performance,,1,plugins/DotNetTools/DotNetTools.rc,53
+040904B0,,13,SystemInformer/version.rc,69
+< Hide,,1,SystemInformer/SystemInformer.rc,813
+< Remove,,2,plugins/ToolStatus/ToolStatus.rc,85
+"<a href=""https://systeminformer.sourceforge.io"">System Informer on SourceForge.net</a>",,1,SystemInformer/SystemInformer.rc,225
+<a>Company name link</a>,,1,SystemInformer/SystemInformer.rc,112
+<a>Open</a>,,1,SystemInformer/SystemInformer.rc,1634
+ACPI Tables,,1,plugins/ExtendedTools/ExtendedTools.rc,704
+API key:,,2,plugins/OnlineChecks/OnlineChecks.rc,71
+Abandoned:,,1,SystemInformer/SystemInformer.rc,496
+About,,1,SystemInformer/SystemInformer.rc,218
+Acquire,,1,SystemInformer/SystemInformer.rc,511
+Action:,,1,plugins/ExtendedServices/ExtendedServices.rc,162
+Active columns:,,1,SystemInformer/SystemInformer.rc,819
+Active processes,,1,SystemInformer/SystemInformer.rc,531
+Active time,,1,plugins/HardwareDevices/HardwareDevices.rc,125
+Adapter,,1,plugins/HardwareDevices/HardwareDevices.rc,76
+Adapter Details,,1,plugins/HardwareDevices/HardwareDevices.rc,85
+Add,,5,SystemInformer/SystemInformer.rc,1584
+Add >,,2,plugins/ToolStatus/ToolStatus.rc,84
+Add...,,2,SystemInformer/SystemInformer.rc,469
+Add/Update,,3,plugins/ExtendedNotifications/ExtendedNotifications.rc,63
+Advanced,,6,SystemInformer/SystemInformer.rc,355
+Affinity,,1,SystemInformer/SystemInformer.rc,579
+Affinity controls which CPUs threads are allowed to execute on.,,1,SystemInformer/SystemInformer.rc,584
+AgentTools,,3,plugins/AgentTools/version.rc,71
+Allocs delta,,2,SystemInformer/SystemInformer.rc,1258
+Allow sandboxed clients (AppContainer or low integrity),,1,plugins/AgentTools/AgentTools.rc,62
+Alt,,1,SystemInformer/SystemInformer.rc,1095
+Anon replies: 0,,1,plugins/NetworkTools/NetworkTools.rc,99
+AppUserModelId:,,1,plugins/ExtendedServices/ExtendedServices.rc,209
+Append /fail=%1% to pass the fail count to the program.,,1,plugins/ExtendedServices/ExtendedServices.rc,84
+Application font:,,1,SystemInformer/SystemInformer.rc,755
+Apply,,1,SystemInformer/SystemInformer.rc,1616
+Ask before allowing an agent to connect,,1,plugins/AgentTools/AgentTools.rc,60
+Attach,,1,SystemInformer/SystemInformer.rc,312
+Attach to Process,,1,SystemInformer/SystemInformer.rc,301
+Attributes,,1,SystemInformer/SystemInformer.rc,1110
+Auditing,,1,SystemInformer/SystemInformer.rc,1897
+Author:,,1,SystemInformer/SystemInformer.rc,1630
+Auto-hide main menu (Alt or F10 key toggle),,2,plugins/ToolStatus/ToolStatus.rc,59
+Auto-scroll,,1,SystemInformer/SystemInformer.rc,906
+Automatic,,1,SystemInformer/SystemInformer.rc,753
+Automatic scanning,,2,plugins/OnlineChecks/OnlineChecks.rc,68
+Automatic submission,,1,plugins/OnlineChecks/OnlineChecks.rc,69
+Available status bar entries:,,1,plugins/ToolStatus/ToolStatus.rc,106
+Available toolbar buttons:,,1,plugins/ToolStatus/ToolStatus.rc,82
+Average display latency,,1,plugins/ExtendedTools/ExtendedTools.rc,363
+Average: 0.00 ms,,1,plugins/NetworkTools/NetworkTools.rc,94
+Bad,,1,SystemInformer/SystemInformer.rc,1401
+Bad replies: 0,,1,plugins/NetworkTools/NetworkTools.rc,96
+"Before restarting, send this message to computers on the network:",,1,plugins/ExtendedServices/ExtendedServices.rc,97
+Binary path:,,2,SystemInformer/SystemInformer.rc,255
+Boot Configuration Log,,1,plugins/ExtendedTools/ExtendedTools.rc,488
+Browse,,2,SystemInformer/SystemInformer.rc,395
+Browse...,,6,SystemInformer/SystemInformer.rc,257
+Button,,176,SystemInformer/SystemInformer.rc,262
+By address:,,1,plugins/ExtendedTools/ExtendedTools.rc,648
+By name:,,1,plugins/ExtendedTools/ExtendedTools.rc,650
+Bytes delta,,2,plugins/HardwareDevices/HardwareDevices.rc,75
+Bytes read,,1,plugins/HardwareDevices/HardwareDevices.rc,119
+Bytes received,,1,plugins/HardwareDevices/HardwareDevices.rc,67
+Bytes sent,,1,plugins/HardwareDevices/HardwareDevices.rc,66
+Bytes total,,2,plugins/HardwareDevices/HardwareDevices.rc,70
+Bytes written,,1,plugins/HardwareDevices/HardwareDevices.rc,120
+CFG bitmap,,1,SystemInformer/SystemInformer.rc,1850
+CPU 0,,1,SystemInformer/SystemInformer.rc,585
+CPU 1,,1,SystemInformer/SystemInformer.rc,586
+CPU 10,,1,SystemInformer/SystemInformer.rc,595
+CPU 11,,1,SystemInformer/SystemInformer.rc,596
+CPU 12,,1,SystemInformer/SystemInformer.rc,597
+CPU 13,,1,SystemInformer/SystemInformer.rc,598
+CPU 14,,1,SystemInformer/SystemInformer.rc,599
+CPU 15,,1,SystemInformer/SystemInformer.rc,600
+CPU 16,,1,SystemInformer/SystemInformer.rc,601
+CPU 17,,1,SystemInformer/SystemInformer.rc,602
+CPU 18,,1,SystemInformer/SystemInformer.rc,603
+CPU 19,,1,SystemInformer/SystemInformer.rc,604
+CPU 2,,1,SystemInformer/SystemInformer.rc,587
+CPU 20,,1,SystemInformer/SystemInformer.rc,605
+CPU 21,,1,SystemInformer/SystemInformer.rc,606
+CPU 22,,1,SystemInformer/SystemInformer.rc,607
+CPU 23,,1,SystemInformer/SystemInformer.rc,608
+CPU 24,,1,SystemInformer/SystemInformer.rc,609
+CPU 25,,1,SystemInformer/SystemInformer.rc,610
+CPU 26,,1,SystemInformer/SystemInformer.rc,611
+CPU 27,,1,SystemInformer/SystemInformer.rc,612
+CPU 28,,1,SystemInformer/SystemInformer.rc,613
+CPU 29,,1,SystemInformer/SystemInformer.rc,614
+CPU 3,,1,SystemInformer/SystemInformer.rc,588
+CPU 30,,1,SystemInformer/SystemInformer.rc,615
+CPU 31,,1,SystemInformer/SystemInformer.rc,616
+CPU 32,,1,SystemInformer/SystemInformer.rc,617
+CPU 33,,1,SystemInformer/SystemInformer.rc,618
+CPU 34,,1,SystemInformer/SystemInformer.rc,619
+CPU 35,,1,SystemInformer/SystemInformer.rc,620
+CPU 36,,1,SystemInformer/SystemInformer.rc,621
+CPU 37,,1,SystemInformer/SystemInformer.rc,622
+CPU 38,,1,SystemInformer/SystemInformer.rc,623
+CPU 39,,1,SystemInformer/SystemInformer.rc,624
+CPU 4,,1,SystemInformer/SystemInformer.rc,589
+CPU 40,,1,SystemInformer/SystemInformer.rc,625
+CPU 41,,1,SystemInformer/SystemInformer.rc,626
+CPU 42,,1,SystemInformer/SystemInformer.rc,627
+CPU 43,,1,SystemInformer/SystemInformer.rc,628
+CPU 44,,1,SystemInformer/SystemInformer.rc,629
+CPU 45,,1,SystemInformer/SystemInformer.rc,630
+CPU 46,,1,SystemInformer/SystemInformer.rc,631
+CPU 47,,1,SystemInformer/SystemInformer.rc,632
+CPU 48,,1,SystemInformer/SystemInformer.rc,633
+CPU 49,,1,SystemInformer/SystemInformer.rc,634
+CPU 5,,1,SystemInformer/SystemInformer.rc,590
+CPU 50,,1,SystemInformer/SystemInformer.rc,635
+CPU 51,,1,SystemInformer/SystemInformer.rc,636
+CPU 52,,1,SystemInformer/SystemInformer.rc,637
+CPU 53,,1,SystemInformer/SystemInformer.rc,638
+CPU 54,,1,SystemInformer/SystemInformer.rc,639
+CPU 55,,1,SystemInformer/SystemInformer.rc,640
+CPU 56,,1,SystemInformer/SystemInformer.rc,641
+CPU 57,,1,SystemInformer/SystemInformer.rc,642
+CPU 58,,1,SystemInformer/SystemInformer.rc,643
+CPU 59,,1,SystemInformer/SystemInformer.rc,644
+CPU 6,,1,SystemInformer/SystemInformer.rc,591
+CPU 60,,1,SystemInformer/SystemInformer.rc,645
+CPU 61,,1,SystemInformer/SystemInformer.rc,646
+CPU 62,,1,SystemInformer/SystemInformer.rc,647
+CPU 63,,1,SystemInformer/SystemInformer.rc,648
+CPU 7,,1,SystemInformer/SystemInformer.rc,592
+CPU 8,,1,SystemInformer/SystemInformer.rc,593
+CPU 9,,1,SystemInformer/SystemInformer.rc,594
+CPU components,,1,plugins/HardwareDevices/HardwareDevices.rc,197
+CPU cores,,1,plugins/HardwareDevices/HardwareDevices.rc,190
+CPU name,,1,SystemInformer/SystemInformer.rc,1130
+CPU package,,1,plugins/HardwareDevices/HardwareDevices.rc,189
+Cache Latency,,1,plugins/ExtendedTools/ExtendedTools.rc,721
+Cache WS,,1,SystemInformer/SystemInformer.rc,1242
+Cancel,,33,SystemInformer/SystemInformer.rc,313
+Capabilities,,1,SystemInformer/SystemInformer.rc,1102
+Capture Hypervisor pages,,1,SystemInformer/SystemInformer.rc,1758
+Capture user pages,,1,SystemInformer/SystemInformer.rc,1757
+Change,,4,plugins/NetworkTools/NetworkTools.rc,74
+Changelog,,1,plugins/Updater/Updater.rc,73
+Changes may require a restart to take effect.,,2,SystemInformer/SystemInformer.rc,1022
+Changes to settings will require a restart of System Informer.,,1,plugins/ExtendedTools/ExtendedTools.rc,151
+Changes will require a restart of System Informer.,,1,plugins/ExtendedNotifications/ExtendedNotifications.rc,111
+Check for updates automatically,,1,plugins/Updater/Updater.rc,58
+"Checkout <a href="""">How-to-generate-a-license-key</a>",,1,plugins/OnlineChecks/OnlineChecks.rc,95
+"Checkout <a href=""https://support.maxmind.com/hc/en-us/articles/4407111582235-Generate-a-License-Key"">How-to-generate-a-license-key</a>",,1,plugins/NetworkTools/NetworkTools.rc,125
+Choose Columns,,1,SystemInformer/SystemInformer.rc,807
+Cleanup,,1,SystemInformer/SystemInformer.rc,1617
+Clear,,3,SystemInformer/SystemInformer.rc,707
+Client configuration,,1,plugins/AgentTools/AgentTools.rc,78
+Close,,48,SystemInformer/SystemInformer.rc,202
+Collapse services on start,,1,plugins/UserNotes/UserNotes.rc,56
+Command line:,,2,SystemInformer/SystemInformer.rc,120
+Command:,,1,SystemInformer/SystemInformer.rc,1477
+Comment,,2,plugins/UserNotes/UserNotes.rc,64
+Comments,,13,SystemInformer/version.rc,79
+Commit charge,,1,SystemInformer/SystemInformer.rc,1233
+Commit charge:,,1,SystemInformer/SystemInformer.rc,1341
+CompanyName,,13,SystemInformer/version.rc,71
+Compatibility,,1,plugins/ExtendedTools/ExtendedTools.rc,712
+Compress memory pages,,1,SystemInformer/SystemInformer.rc,1756
+Configure,,1,plugins/OnlineChecks/OnlineChecks.rc,112
+Connected agents,,1,plugins/AgentTools/AgentTools.rc,74
+Connection type:,,1,SystemInformer/SystemInformer.rc,304
+Containers,,1,SystemInformer/SystemInformer.rc,1449
+Content layout,,1,SystemInformer/SystemInformer.rc,1489
+Context switches,,3,SystemInformer/SystemInformer.rc,1193
+Context switches delta,,1,SystemInformer/SystemInformer.rc,1158
+Copy,,7,SystemInformer/SystemInformer.rc,200
+"Copyright (c) Winsider Seminars & Solutions, Inc.  All rights reserved.",,13,SystemInformer/version.rc,75
+"Copyright (c) Winsider Seminars && Solutions, Inc.",,1,SystemInformer/SystemInformer.rc,223
+Core:,,1,plugins/HardwareDevices/HardwareDevices.rc,179
+Cores,,1,SystemInformer/SystemInformer.rc,1167
+Count:,,1,SystemInformer/SystemInformer.rc,494
+Create Service,,1,SystemInformer/SystemInformer.rc,836
+Create UIAccess,,1,SystemInformer/SystemInformer.rc,398
+Create suspended,,1,SystemInformer/SystemInformer.rc,396
+Create this task with Administrative privileges.,,1,SystemInformer/SystemInformer.rc,1693
+Create this task with TrustedInstaller privileges.,,1,SystemInformer/SystemInformer.rc,1691
+Credits.,,1,SystemInformer/SystemInformer.rc,224
+Ctrl,,1,SystemInformer/SystemInformer.rc,1094
+Current,,8,SystemInformer/SystemInformer.rc,1234
+Current count:,,1,SystemInformer/SystemInformer.rc,507
+Current database configuration values:,,1,plugins/UserNotes/UserNotes.rc,59
+Current directory:,,1,SystemInformer/SystemInformer.rc,122
+Current status bar entries:,,1,plugins/ToolStatus/ToolStatus.rc,110
+Current toolbar buttons:,,1,plugins/ToolStatus/ToolStatus.rc,86
+Customize Status Bar,,1,plugins/ToolStatus/ToolStatus.rc,103
+Customize Toolbar,,1,plugins/ToolStatus/ToolStatus.rc,79
+DPCs,,2,SystemInformer/SystemInformer.rc,1207
+DPCs delta,,1,SystemInformer/SystemInformer.rc,1160
+DRAM:,,1,plugins/HardwareDevices/HardwareDevices.rc,180
+Data items:,,1,plugins/ExtendedServices/ExtendedServices.rc,164
+Dedicated memory,,3,plugins/ExtendedTools/ExtendedTools.rc,199
+Dedicated memory:,,3,plugins/ExtendedTools/ExtendedTools.rc,188
+Default token,,1,SystemInformer/SystemInformer.rc,357
+Deferred procedure calls,,1,SystemInformer/SystemInformer.rc,1195
+Delayed start,,1,SystemInformer/SystemInformer.rc,265
+Delegate to client uses the client's prompt. Not required never asks.,,1,plugins/AgentTools/AgentTools.rc,66
+Delete,,8,SystemInformer/SystemInformer.rc,1457
+Deltas,,1,SystemInformer/SystemInformer.rc,1204
+Description:,,3,SystemInformer/SystemInformer.rc,1509
+Deselect all,,1,SystemInformer/SystemInformer.rc,650
+Desktop:,,1,SystemInformer/SystemInformer.rc,390
+Desktops,,1,plugins/ExtendedTools/ExtendedTools.rc,678
+Details,,7,SystemInformer/SystemInformer.rc,134
+Detect Unicode,,1,SystemInformer/SystemInformer.rc,994
+Deviation: 0.00 ms,,1,plugins/NetworkTools/NetworkTools.rc,101
+Device,,1,plugins/HardwareDevices/HardwareDevices.rc,280
+Devices,,1,plugins/ExtendedNotifications/ExtendedNotifications.rc,87
+Diagnostics,,1,SystemInformer/SystemInformer.rc,227
+Dialog,,7,SystemInformer/SystemInformer.rc,723
+Disable all,,1,SystemInformer/SystemInformer.rc,775
+Disabled Plugins,,1,SystemInformer/SystemInformer.rc,1647
+Disabled plugins (0),,1,SystemInformer/SystemInformer.rc,1024
+Disconnect,,1,plugins/AgentTools/AgentTools.rc,77
+Disk,,4,plugins/ExtendedTools/ExtendedTools.rc,124
+Disk Drives,,1,plugins/HardwareDevices/HardwareDevices.rc,93
+Disk I/O,,2,plugins/ExtendedTools/ExtendedTools.rc,135
+Display name:,,1,SystemInformer/SystemInformer.rc,841
+DotNetTools,,3,plugins/DotNetTools/version.rc,71
+Double-click an item to change it.,,1,SystemInformer/SystemInformer.rc,773
+Download update,,1,plugins/NetworkTools/NetworkTools.rc,79
+Driver WS,,1,SystemInformer/SystemInformer.rc,1249
+Edit,,4,SystemInformer/SystemInformer.rc,1568
+Edit Data,,1,plugins/ExtendedServices/ExtendedServices.rc,175
+Edit Environment Variable,,4,SystemInformer/SystemInformer.rc,1534
+Edit Text,,2,SystemInformer/SystemInformer.rc,1573
+Edit...,,2,plugins/ExtendedServices/ExtendedServices.rc,167
+Elevated:,,2,SystemInformer/SystemInformer.rc,349
+Enable,,1,plugins/ExtendedTools/ExtendedTools.rc,171
+Enable Disk and Network graphs,,1,plugins/ExtendedTools/ExtendedTools.rc,154
+Enable Disk and Network monitoring,,1,plugins/ExtendedTools/ExtendedTools.rc,152
+Enable FPS monitoring,,1,plugins/ExtendedTools/ExtendedTools.rc,160
+Enable GPU monitoring,,1,plugins/ExtendedTools/ExtendedTools.rc,156
+Enable NPU monitoring,,1,plugins/ExtendedTools/ExtendedTools.rc,157
+Enable Services submenu for processes,,1,plugins/ExtendedServices/ExtendedServices.rc,148
+Enable actions for stops with errors,,1,plugins/ExtendedServices/ExtendedServices.rc,77
+Enable all,,1,SystemInformer/SystemInformer.rc,774
+Enable auto focus to search box,,1,plugins/ToolStatus/ToolStatus.rc,62
+Enable column remaining space resize,,1,plugins/ExtendedTools/ExtendedTools.rc,460
+Enable extended TCP statistics,,1,plugins/NetworkTools/NetworkTools.rc,69
+Enable large toolbar icons,,1,plugins/ToolStatus/ToolStatus.rc,67
+Enable modern icons,,1,plugins/ToolStatus/ToolStatus.rc,94
+Enable per-process GPU adapter statistics,,1,plugins/ExtendedTools/ExtendedTools.rc,161
+Enable scanning,,1,plugins/OnlineChecks/OnlineChecks.rc,64
+Enable status bar,,1,plugins/ToolStatus/ToolStatus.rc,56
+Enable theme support (experimental),,1,SystemInformer/SystemInformer.rc,799
+Enable toolbar,,1,plugins/ToolStatus/ToolStatus.rc,55
+Enable toolbar menu bar,,1,plugins/ToolStatus/ToolStatus.rc,61
+Enter the command to start as the specified package.,,1,SystemInformer/SystemInformer.rc,1806
+Enter the command to start as the specified user.,,1,SystemInformer/SystemInformer.rc,380
+Environment,,1,SystemInformer/SystemInformer.rc,182
+Environment Variables,,2,SystemInformer/SystemInformer.rc,1580
+Error Reports,,1,plugins/ExtendedTools/ExtendedTools.rc,572
+Error control:,,2,SystemInformer/SystemInformer.rc,251
+Event,,1,SystemInformer/SystemInformer.rc,477
+Event Pair,,1,SystemInformer/SystemInformer.rc,570
+Exception dispatches,,3,SystemInformer/SystemInformer.rc,1197
+Exclude,,3,plugins/ExtendedNotifications/ExtendedNotifications.rc,62
+Extended Unicode,,1,SystemInformer/SystemInformer.rc,1001
+ExtendedNotifications,,3,plugins/ExtendedNotifications/version.rc,71
+ExtendedServices,,3,plugins/ExtendedServices/version.rc,71
+Fan RPM:,,3,plugins/ExtendedTools/ExtendedTools.rc,192
+File,,3,SystemInformer/SystemInformer.rc,108
+File name:,,1,SystemInformer/SystemInformer.rc,1635
+File reputation analysis,,1,plugins/OnlineChecks/OnlineChecks.rc,105
+FileDescription,,13,SystemInformer/version.rc,72
+FileVersion,,13,SystemInformer/version.rc,73
+Files,,1,plugins/ExtendedTools/ExtendedTools.rc,598
+Filter,,4,SystemInformer/SystemInformer.rc,706
+Filter memory,,1,SystemInformer/SystemInformer.rc,1706
+Filter module paths,,1,SystemInformer/SystemInformer.rc,1712
+Filter write-combined memory,,1,SystemInformer/SystemInformer.rc,1744
+Find,,2,SystemInformer/SystemInformer.rc,294
+Find Handles or DLLs,,1,SystemInformer/SystemInformer.rc,290
+Find window,,1,plugins/WindowExplorer/WindowExplorer.rc,58
+Firmware Table,,1,plugins/ExtendedTools/ExtendedTools.rc,403
+First failure:,,1,plugins/ExtendedServices/ExtendedServices.rc,65
+Font...,,1,SystemInformer/SystemInformer.rc,748
+Form factor,,1,SystemInformer/SystemInformer.rc,1321
+Free,,2,SystemInformer/SystemInformer.rc,1277
+Frees delta,,2,SystemInformer/SystemInformer.rc,1260
+GDI Handles,,1,SystemInformer/SystemInformer.rc,890
+GPU Adapter Details,,2,plugins/ExtendedTools/ExtendedTools.rc,338
+GPU Nodes,,2,plugins/ExtendedTools/ExtendedTools.rc,303
+GPU name,,2,plugins/ExtendedTools/ExtendedTools.rc,184
+GPU/NPU temperature unit:,,1,plugins/ExtendedTools/ExtendedTools.rc,158
+GPU:,,2,plugins/ExtendedTools/ExtendedTools.rc,187
+Games,,2,SystemInformer/SystemInformer.rc,1814
+General,,13,SystemInformer/SystemInformer.rc,105
+GeoLite Update,,1,plugins/NetworkTools/NetworkTools.rc,81
+Go to...,,1,SystemInformer/SystemInformer.rc,933
+Graph history length:,,1,SystemInformer/SystemInformer.rc,751
+Graph layout,,3,SystemInformer/SystemInformer.rc,1133
+Graphics Devices,,1,plugins/HardwareDevices/HardwareDevices.rc,265
+Graphs,,1,SystemInformer/SystemInformer.rc,1006
+Group:,,1,SystemInformer/SystemInformer.rc,253
+Handle Statistics,,1,SystemInformer/SystemInformer.rc,1029
+Handles,,3,SystemInformer/SystemInformer.rc,172
+Hardware,,2,SystemInformer/SystemInformer.rc,1175
+HardwareDevices,,3,plugins/HardwareDevices/version.rc,71
+Heap Counters,,1,SystemInformer/SystemInformer.rc,1780
+Heaps,,1,SystemInformer/SystemInformer.rc,1769
+Highlighting,,1,SystemInformer/SystemInformer.rc,763
+Highlighting duration:,,1,SystemInformer/SystemInformer.rc,766
+Hybrid-Analysis,,2,plugins/OnlineChecks/OnlineChecks.rc,67
+I/O,,4,SystemInformer/SystemInformer.rc,553
+I/O deltas,,1,SystemInformer/SystemInformer.rc,1362
+I/O totals,,1,SystemInformer/SystemInformer.rc,1375
+Icon processes:,,1,SystemInformer/SystemInformer.rc,746
+Icon:,,1,SystemInformer/SystemInformer.rc,671
+"If this service fails, the computer will restart.\nRecovery actions are not supported for this service.",,1,plugins/ExtendedServices/ExtendedServices.rc,110
+Ignore inaccessible memory,,1,SystemInformer/SystemInformer.rc,1730
+Image,,1,SystemInformer/SystemInformer.rc,997
+Image file name (Win32):,,1,SystemInformer/SystemInformer.rc,115
+Image file name:,,2,SystemInformer/SystemInformer.rc,140
+Image type:,,1,SystemInformer/SystemInformer.rc,137
+Image:,,1,SystemInformer/SystemInformer.rc,1474
+Inactive columns:,,1,SystemInformer/SystemInformer.rc,810
+Include,,3,plugins/ExtendedNotifications/ExtendedNotifications.rc,61
+Include nonessential Hypervisor pages,,1,SystemInformer/SystemInformer.rc,1759
+Information,,1,SystemInformer/SystemInformer.rc,279
+Input Prompt,,3,SystemInformer/SystemInformer.rc,1863
+Inspect,,2,SystemInformer/SystemInformer.rc,117
+Integrity,,1,SystemInformer/SystemInformer.rc,354
+Interfaces,,1,plugins/HardwareDevices/HardwareDevices.rc,295
+Internal name:,,1,SystemInformer/SystemInformer.rc,1628
+Internal state directory:,,1,plugins/ExtendedServices/ExtendedServices.rc,213
+Internal state key:,,1,plugins/ExtendedServices/ExtendedServices.rc,217
+InternalName,,13,SystemInformer/version.rc,74
+Interrupts,,3,SystemInformer/SystemInformer.rc,1194
+Interrupts delta,,1,SystemInformer/SystemInformer.rc,1159
+Job,,1,SystemInformer/SystemInformer.rc,461
+Keep enabled,,1,plugins/OnlineChecks/OnlineChecks.rc,113
+Kernel WS,,1,SystemInformer/SystemInformer.rc,1247
+Kernel time,,1,SystemInformer/SystemInformer.rc,539
+Kernel time (period),,1,SystemInformer/SystemInformer.rc,541
+L1 cache,,1,SystemInformer/SystemInformer.rc,1176
+L2 cache,,1,SystemInformer/SystemInformer.rc,1178
+L3 cache,,1,SystemInformer/SystemInformer.rc,1180
+LUID:,,1,SystemInformer/SystemInformer.rc,447
+Large Pool Allocations,,1,plugins/ExtendedTools/ExtendedTools.rc,466
+Last update check: N/A,,1,plugins/Updater/Updater.rc,61
+Latency,,3,SystemInformer/SystemInformer.rc,1170
+Lazy start,,1,SystemInformer/SystemInformer.rc,783
+LegalCopyright,,13,SystemInformer/version.rc,75
+Limit,,9,SystemInformer/SystemInformer.rc,1236
+Limits:,,1,SystemInformer/SystemInformer.rc,470
+Link speed,,1,plugins/HardwareDevices/HardwareDevices.rc,74
+Link state,,1,plugins/HardwareDevices/HardwareDevices.rc,73
+Linked token,,1,SystemInformer/SystemInformer.rc,443
+List,,2,SystemInformer/SystemInformer.rc,308
+Live kernel dump,,1,SystemInformer/SystemInformer.rc,1752
+Log,,1,SystemInformer/SystemInformer.rc,901
+Log all events to this file (leave blank to disable this feature):,,1,plugins/ExtendedNotifications/ExtendedNotifications.rc,108
+Logging,,1,plugins/ExtendedNotifications/ExtendedNotifications.rc,104
+Logical processors,,1,SystemInformer/SystemInformer.rc,1169
+MS Shell Dlg,,231,SystemInformer/SystemInformer.rc,106
+Make default...,,1,SystemInformer/SystemInformer.rc,750
+Mapped,,1,SystemInformer/SystemInformer.rc,998
+Mapped IO,,1,SystemInformer/SystemInformer.rc,1312
+Mapped reads,,1,SystemInformer/SystemInformer.rc,1313
+Mapped writes,,1,SystemInformer/SystemInformer.rc,1315
+Mapped writes delta,,1,SystemInformer/SystemInformer.rc,1305
+Mappings,,1,SystemInformer/SystemInformer.rc,1830
+Max Tracert Hops:,,1,plugins/NetworkTools/NetworkTools.rc,68
+Max. size unit:,,1,SystemInformer/SystemInformer.rc,744
+MaxMind GeoLite Account ID:,,1,plugins/NetworkTools/NetworkTools.rc,72
+MaxMind GeoLite License Key:,,1,plugins/NetworkTools/NetworkTools.rc,77
+Maximum count:,,1,SystemInformer/SystemInformer.rc,509
+Maximum: 0.00 ms,,1,plugins/NetworkTools/NetworkTools.rc,100
+Memory,,5,SystemInformer/SystemInformer.rc,546
+Memory Lists,,1,SystemInformer/SystemInformer.rc,1393
+Memory Protection,,1,SystemInformer/SystemInformer.rc,941
+Memory lists,,1,SystemInformer/SystemInformer.rc,1271
+Memory type,,1,SystemInformer/SystemInformer.rc,1325
+Message,,1,SystemInformer/SystemInformer.rc,664
+Minimum length:,,2,SystemInformer/SystemInformer.rc,968
+Minimum: 0.00 ms,,1,plugins/NetworkTools/NetworkTools.rc,97
+Mitigation Policies,,1,SystemInformer/SystemInformer.rc,1505
+Mitigation policies:,,1,SystemInformer/SystemInformer.rc,132
+Modified,,2,SystemInformer/SystemInformer.rc,1273
+Modified no-write,,2,SystemInformer/SystemInformer.rc,1278
+Modified pagefile,,2,SystemInformer/SystemInformer.rc,1307
+Modified pages,,1,SystemInformer/SystemInformer.rc,1839
+Modules,,2,SystemInformer/SystemInformer.rc,151
+Monitor,,1,SystemInformer/SystemInformer.rc,702
+Monospace...,,1,SystemInformer/SystemInformer.rc,749
+Move Down,,2,SystemInformer/SystemInformer.rc,1572
+Move Up,,2,SystemInformer/SystemInformer.rc,1571
+Move down,,7,SystemInformer/SystemInformer.rc,816
+Move up,,7,SystemInformer/SystemInformer.rc,815
+Mutant,,1,SystemInformer/SystemInformer.rc,491
+NPU Adapter Details,,1,plugins/ExtendedTools/ExtendedTools.rc,346
+NPU Nodes,,1,plugins/ExtendedTools/ExtendedTools.rc,311
+NPU name,,1,plugins/ExtendedTools/ExtendedTools.rc,226
+NPU:,,1,plugins/ExtendedTools/ExtendedTools.rc,229
+Name:,,10,SystemInformer/SystemInformer.rc,445
+Named Pipes,,1,plugins/ExtendedTools/ExtendedTools.rc,391
+Network,,3,plugins/ExtendedTools/ExtendedTools.rc,291
+Network Adapters,,1,plugins/HardwareDevices/HardwareDevices.rc,52
+Network I/O,,2,plugins/ExtendedTools/ExtendedTools.rc,278
+Network Stack,,1,SystemInformer/SystemInformer.rc,827
+Network Tools,,2,plugins/NetworkTools/NetworkTools.rc,54
+NetworkTools,,3,plugins/NetworkTools/version.rc,71
+New,,2,SystemInformer/SystemInformer.rc,1567
+New Environment Variable,,1,SystemInformer/SystemInformer.rc,1547
+New objects,,1,SystemInformer/SystemInformer.rc,769
+New objects:,,1,SystemInformer/SystemInformer.rc,768
+New value:,,1,SystemInformer/SystemInformer.rc,945
+New...,,2,plugins/ExtendedServices/ExtendedServices.rc,166
+Next update check: N/A,,1,plugins/Updater/Updater.rc,62
+Nodes,,3,plugins/ExtendedTools/ExtendedTools.rc,209
+Non-paged pool,,1,SystemInformer/SystemInformer.rc,1262
+None,,1,plugins/ExtendedServices/ExtendedServices.rc,219
+Normal,,1,SystemInformer/SystemInformer.rc,1702
+"Note: FPS monitoring requires either administrative privileges or the current user a member of the ""Performance Log Users"" group.",,1,plugins/ExtendedTools/ExtendedTools.rc,162
+Note: Right-click the toolbar on the main window to customize the icons and graphs.,,1,plugins/ToolStatus/ToolStatus.rc,64
+Note: You can also download GeoLite updates from the Main menu > Tools > Network Tools > Update GeoLite...,,1,plugins/NetworkTools/NetworkTools.rc,75
+Object Manager,,1,plugins/ExtendedTools/ExtendedTools.rc,441
+Objects,,1,plugins/ExtendedTools/ExtendedTools.rc,380
+OnlineChecks,,3,plugins/OnlineChecks/version.rc,71
+Only for processes with the same command line,,1,plugins/UserNotes/UserNotes.rc,69
+Only kernel thread stacks,,1,SystemInformer/SystemInformer.rc,1761
+Open,,4,SystemInformer/SystemInformer.rc,118
+Open File...,,1,plugins/ExtendedTools/ExtendedTools.rc,494
+Open GeoIP.conf,,1,plugins/NetworkTools/NetworkTools.rc,73
+Option,,1,SystemInformer/SystemInformer.rc,728
+Options,,20,SystemInformer/SystemInformer.rc,156
+Options...,,1,SystemInformer/SystemInformer.rc,1641
+Organize Column Sets,,1,SystemInformer/SystemInformer.rc,1668
+OriginalFilename,,13,SystemInformer/version.rc,76
+Other,,3,SystemInformer/SystemInformer.rc,558
+Other bytes,,2,SystemInformer/SystemInformer.rc,559
+Other bytes delta,,1,SystemInformer/SystemInformer.rc,1372
+Other bytes:,,1,SystemInformer/SystemInformer.rc,1355
+Other delta,,1,SystemInformer/SystemInformer.rc,1371
+Owner:,,2,SystemInformer/SystemInformer.rc,431
+PCR bank:,,1,plugins/ExtendedTools/ExtendedTools.rc,495
+PE viewer:,,1,SystemInformer/SystemInformer.rc,742
+Package,,1,plugins/ExtendedServices/ExtendedServices.rc,206
+Package name:,,1,plugins/ExtendedServices/ExtendedServices.rc,211
+Package:,,1,plugins/HardwareDevices/HardwareDevices.rc,178
+Page faults,,1,SystemInformer/SystemInformer.rc,547
+Page faults delta,,1,SystemInformer/SystemInformer.rc,1299
+Page faults:,,1,plugins/ExtendedTools/ExtendedTools.rc,173
+Page reads delta,,1,SystemInformer/SystemInformer.rc,1304
+Paged pool,,1,SystemInformer/SystemInformer.rc,1251
+Pagefile writes delta,,1,SystemInformer/SystemInformer.rc,1300
+Pagefiles,,1,SystemInformer/SystemInformer.rc,413
+Paging,,1,SystemInformer/SystemInformer.rc,1298
+Panel layout,,12,SystemInformer/SystemInformer.rc,1132
+Parent console:,,1,SystemInformer/SystemInformer.rc,126
+Parent process:,,1,SystemInformer/SystemInformer.rc,129
+Parent:,,1,SystemInformer/SystemInformer.rc,1043
+Password:,,2,SystemInformer/SystemInformer.rc,260
+Paste the key below:,,1,plugins/OnlineChecks/OnlineChecks.rc,94
+Paste the license key below:,,1,plugins/NetworkTools/NetworkTools.rc,124
+Pause,,3,SystemInformer/SystemInformer.rc,705
+Peak,,1,SystemInformer/SystemInformer.rc,1235
+Peak job usage,,1,SystemInformer/SystemInformer.rc,549
+Peak process usage,,1,SystemInformer/SystemInformer.rc,548
+Performance,,1,SystemInformer/SystemInformer.rc,858
+Permissions,,5,SystemInformer/SystemInformer.rc,145
+Persist tray icon layout,,1,SystemInformer/SystemInformer.rc,786
+PhColorBox,,2,SystemInformer/SystemInformer.rc,769
+PhGraph,,3,SystemInformer/SystemInformer.rc,861
+PhHexEdit,,3,SystemInformer/SystemInformer.rc,930
+PhTabNew,,1,plugins/ExtendedTools/ExtendedTools.rc,738
+PhTreeNew,,30,SystemInformer/SystemInformer.rc,154
+Physical memory,,1,SystemInformer/SystemInformer.rc,1240
+Physical memory:,,1,SystemInformer/SystemInformer.rc,1342
+Pin,,1,SystemInformer/SystemInformer.rc,1492
+Ping continuously,,1,plugins/NetworkTools/NetworkTools.rc,113
+Ping packet length:,,1,plugins/NetworkTools/NetworkTools.rc,65
+Ping statistics,,1,plugins/NetworkTools/NetworkTools.rc,93
+PingGraphLayout,,1,plugins/NetworkTools/NetworkTools.rc,92
+Pinging X with X bytes of data:,,1,plugins/NetworkTools/NetworkTools.rc,91
+Pings lost: 0 (0%),,1,plugins/NetworkTools/NetworkTools.rc,98
+Pings sent: 0,,1,plugins/NetworkTools/NetworkTools.rc,95
+Please wait...,,1,SystemInformer/SystemInformer.rc,408
+Plugin,,1,SystemInformer/SystemInformer.rc,1625
+Plugin Properties,,1,SystemInformer/SystemInformer.rc,1622
+Plugins,,1,SystemInformer/SystemInformer.rc,1019
+PnP,,1,plugins/ExtendedServices/ExtendedServices.rc,197
+Policy,,2,SystemInformer/SystemInformer.rc,144
+Pool Table,,1,plugins/ExtendedTools/ExtendedTools.rc,454
+Power Grid Forecast,,1,plugins/ExtendedTools/ExtendedTools.rc,667
+Power Policies,,1,plugins/ExtendedTools/ExtendedTools.rc,657
+Power Usage:,,1,plugins/HardwareDevices/HardwareDevices.rc,224
+Power usage,,1,plugins/HardwareDevices/HardwareDevices.rc,188
+Power usage:,,2,plugins/ExtendedTools/ExtendedTools.rc,190
+Present duration,,1,plugins/ExtendedTools/ExtendedTools.rc,360
+Present interval,,1,plugins/ExtendedTools/ExtendedTools.rc,359
+Preshutdown timeout:,,1,plugins/ExtendedServices/ExtendedServices.rc,128
+Preview,,1,plugins/WindowExplorer/WindowExplorer.rc,94
+Primary group:,,1,SystemInformer/SystemInformer.rc,433
+Priority 0,,2,SystemInformer/SystemInformer.rc,1281
+Priority 1,,2,SystemInformer/SystemInformer.rc,1282
+Priority 2,,2,SystemInformer/SystemInformer.rc,1283
+Priority 3,,2,SystemInformer/SystemInformer.rc,1284
+Priority 4,,2,SystemInformer/SystemInformer.rc,1285
+Priority 5,,2,SystemInformer/SystemInformer.rc,1286
+Priority 6,,2,SystemInformer/SystemInformer.rc,1287
+Priority 7,,2,SystemInformer/SystemInformer.rc,1288
+Private,,1,SystemInformer/SystemInformer.rc,996
+Private bytes,,1,SystemInformer/SystemInformer.rc,865
+Process,,1,SystemInformer/SystemInformer.rc,119
+Process Monitor,,1,SystemInformer/SystemInformer.rc,914
+Process Record,,1,SystemInformer/SystemInformer.rc,1038
+Process dump,,1,SystemInformer/SystemInformer.rc,1699
+Processes,,2,SystemInformer/SystemInformer.rc,1148
+Processes highlighted red are hidden while those highlighted grey have terminated.,,1,SystemInformer/SystemInformer.rc,365
+Processes in job:,,1,SystemInformer/SystemInformer.rc,467
+ProductName,,13,SystemInformer/version.rc,77
+ProductVersion,,13,SystemInformer/version.rc,78
+Program:,,2,SystemInformer/SystemInformer.rc,381
+Progress,,3,SystemInformer/SystemInformer.rc,403
+Properties,,3,SystemInformer/SystemInformer.rc,1062
+Property Storage,,1,plugins/WindowExplorer/WindowExplorer.rc,66
+Protection:,,2,SystemInformer/SystemInformer.rc,135
+Pull,,1,SystemInformer/SystemInformer.rc,1455
+Pulse,,1,SystemInformer/SystemInformer.rc,486
+Queue delta,,1,plugins/HardwareDevices/HardwareDevices.rc,134
+RAPL Devices,,1,plugins/HardwareDevices/HardwareDevices.rc,205
+RAPL name,,1,plugins/HardwareDevices/HardwareDevices.rc,175
+Raw data,,3,plugins/ExtendedTools/ExtendedTools.rc,509
+Re-read,,3,SystemInformer/SystemInformer.rc,931
+Read,,1,plugins/ExtendedTools/ExtendedTools.rc,127
+Read bytes,,3,SystemInformer/SystemInformer.rc,555
+Read bytes delta,,3,SystemInformer/SystemInformer.rc,1364
+Read bytes:,,2,SystemInformer/SystemInformer.rc,1353
+Read:,,1,plugins/HardwareDevices/HardwareDevices.rc,110
+Reads,,3,SystemInformer/SystemInformer.rc,554
+Reads delta,,2,SystemInformer/SystemInformer.rc,1363
+Ready,,2,SystemInformer/SystemInformer.rc,1465
+Receive,,1,plugins/ExtendedTools/ExtendedTools.rc,617
+Receive bytes,,1,plugins/ExtendedTools/ExtendedTools.rc,627
+Receive bytes delta,,2,plugins/ExtendedTools/ExtendedTools.rc,280
+Receive bytes:,,1,plugins/ExtendedTools/ExtendedTools.rc,297
+Receive:,,1,plugins/HardwareDevices/HardwareDevices.rc,166
+Receives,,1,plugins/ExtendedTools/ExtendedTools.rc,626
+Receives delta,,1,plugins/ExtendedTools/ExtendedTools.rc,279
+Recovery,,2,plugins/ExtendedServices/ExtendedServices.rc,62
+Refresh,,33,SystemInformer/SystemInformer.rc,187
+Refresh (F5),,2,plugins/ExtendedTools/ExtendedTools.rc,444
+Regex matched against the full file path; automatic scanning only.,,1,plugins/OnlineChecks/OnlineChecks.rc,79
+Release,,1,SystemInformer/SystemInformer.rc,512
+Remote Control,,1,SystemInformer/SystemInformer.rc,1088
+Remove,,7,SystemInformer/SystemInformer.rc,1890
+Removed objects,,1,SystemInformer/SystemInformer.rc,771
+Removed objects:,,1,SystemInformer/SystemInformer.rc,770
+Rename,,1,SystemInformer/SystemInformer.rc,1674
+Required privileges:,,1,plugins/ExtendedServices/ExtendedServices.rc,137
+Reserved,,1,SystemInformer/SystemInformer.rc,1311
+Reset,,4,SystemInformer/SystemInformer.rc,485
+Reset fail count after:,,1,plugins/ExtendedServices/ExtendedServices.rc,71
+Reset layout,,1,SystemInformer/SystemInformer.rc,790
+Resolve ghost windows to hung windows,,1,plugins/ToolStatus/ToolStatus.rc,57
+Resources,,1,plugins/HardwareDevices/HardwareDevices.rc,303
+Response time,,1,plugins/HardwareDevices/HardwareDevices.rc,126
+Restart computer options...,,1,plugins/ExtendedServices/ExtendedServices.rc,79
+Restart service after:,,1,plugins/ExtendedServices/ExtendedServices.rc,74
+Restart the computer after:,,1,plugins/ExtendedServices/ExtendedServices.rc,94
+Results,,1,SystemInformer/SystemInformer.rc,976
+"Results appear in the Hybrid-Analysis column. To show it, right-click any column header and select ""Choose columns..."".",,1,plugins/OnlineChecks/OnlineChecks.rc,110
+Results.,,1,SystemInformer/SystemInformer.rc,979
+Revert,,1,plugins/UserNotes/UserNotes.rc,68
+Revoke grants,,1,plugins/AgentTools/AgentTools.rc,76
+Run,,3,SystemInformer/SystemInformer.rc,1453
+Run As,,1,SystemInformer/SystemInformer.rc,377
+Run Container,,1,SystemInformer/SystemInformer.rc,1471
+Run program,,1,plugins/ExtendedServices/ExtendedServices.rc,80
+Runtime Attestation Report,,1,plugins/ExtendedTools/ExtendedTools.rc,545
+SID type:,,1,plugins/ExtendedServices/ExtendedServices.rc,133
+Save,,4,SystemInformer/SystemInformer.rc,1746
+Save...,,7,SystemInformer/SystemInformer.rc,283
+Scan exclusions,,1,plugins/OnlineChecks/OnlineChecks.rc,78
+Scan inaccessible partial pages,,1,SystemInformer/SystemInformer.rc,1742
+Scan memory,,1,SystemInformer/SystemInformer.rc,1707
+Scope,,1,SystemInformer/SystemInformer.rc,1554
+Search box:,,1,plugins/ToolStatus/ToolStatus.rc,92
+Search engine:,,1,SystemInformer/SystemInformer.rc,740
+Search in the following types of memory regions:,,1,SystemInformer/SystemInformer.rc,995
+Second failure:,,1,plugins/ExtendedServices/ExtendedServices.rc,67
+Section,,1,SystemInformer/SystemInformer.rc,1490
+Secure Boot Certificates,,1,plugins/ExtendedTools/ExtendedTools.rc,518
+Segoe UI,,1,SystemInformer/SystemInformer.rc,1682
+Select a Process,,1,SystemInformer/SystemInformer.rc,1068
+Select a package,,1,SystemInformer/SystemInformer.rc,1798
+Select a process from the list below.,,1,SystemInformer/SystemInformer.rc,1071
+Select all,,1,SystemInformer/SystemInformer.rc,649
+Select disk devices to show on the system information window:,,1,plugins/HardwareDevices/HardwareDevices.rc,97
+Select energy devices to show on the system information window:,,1,plugins/HardwareDevices/HardwareDevices.rc,209
+Select graphics devices to show on the system information window:,,1,plugins/HardwareDevices/HardwareDevices.rc,270
+Select network devices to show on the system information window:,,1,plugins/HardwareDevices/HardwareDevices.rc,57
+Select the columns that will appear in the list.,,1,SystemInformer/SystemInformer.rc,820
+Select the graph to show on the taskbar:,,1,plugins/ToolStatus/ToolStatus.rc,66
+Select the identity for access to the package file system and registry.,,1,SystemInformer/SystemInformer.rc,1801
+Semaphore,,1,SystemInformer/SystemInformer.rc,504
+Send,,1,plugins/ExtendedTools/ExtendedTools.rc,618
+Send bytes,,1,plugins/ExtendedTools/ExtendedTools.rc,630
+Send bytes delta,,2,plugins/ExtendedTools/ExtendedTools.rc,282
+Send bytes:,,1,plugins/ExtendedTools/ExtendedTools.rc,298
+Send:,,1,plugins/HardwareDevices/HardwareDevices.rc,165
+Sends,,1,plugins/ExtendedTools/ExtendedTools.rc,629
+Sends delta,,1,plugins/ExtendedTools/ExtendedTools.rc,281
+Serve agent tools (MCP) for this session,,1,plugins/AgentTools/AgentTools.rc,57
+Service DLL:,,1,SystemInformer/SystemInformer.rc,263
+Service SID:,,1,plugins/ExtendedServices/ExtendedServices.rc,131
+Services,,4,SystemInformer/SystemInformer.rc,1080
+Session ID:,,3,SystemInformer/SystemInformer.rc,389
+Session Properties,,1,SystemInformer/SystemInformer.rc,681
+Session:,,1,SystemInformer/SystemInformer.rc,347
+Set,,1,SystemInformer/SystemInformer.rc,484
+Set high,,1,SystemInformer/SystemInformer.rc,574
+Set low,,1,SystemInformer/SystemInformer.rc,573
+Setting Editor,,1,SystemInformer/SystemInformer.rc,1592
+Shadow Stack,,1,SystemInformer/SystemInformer.rc,1525
+Shared memory,,3,plugins/ExtendedTools/ExtendedTools.rc,204
+Shared memory:,,3,plugins/ExtendedTools/ExtendedTools.rc,189
+Shared state directory:,,1,plugins/ExtendedServices/ExtendedServices.rc,215
+Shared state key:,,1,plugins/ExtendedServices/ExtendedServices.rc,220
+Shift,,1,SystemInformer/SystemInformer.rc,1093
+Show >,,1,SystemInformer/SystemInformer.rc,812
+Show commit charge instead of physical memory in summary view,,1,SystemInformer/SystemInformer.rc,1013
+Show hidden adapters,,2,plugins/HardwareDevices/HardwareDevices.rc,56
+Show hidden devices,,1,plugins/HardwareDevices/HardwareDevices.rc,98
+Show physical adapters,,1,plugins/HardwareDevices/HardwareDevices.rc,58
+Show processes for all users,,1,SystemInformer/SystemInformer.rc,311
+Show text,,1,SystemInformer/SystemInformer.rc,1009
+Show update notifications instead of update prompts,,1,plugins/Updater/Updater.rc,67
+Show update prompt before main window,,1,plugins/Updater/Updater.rc,63
+Signaled:,,2,SystemInformer/SystemInformer.rc,482
+Signature,,1,plugins/ExtendedTools/ExtendedTools.rc,590
+Single-click tray icons,,1,SystemInformer/SystemInformer.rc,784
+Sizes in bytes,,1,SystemInformer/SystemInformer.rc,1774
+Skip check for updates and search automatically,,1,plugins/Updater/Updater.rc,65
+Slots used,,1,SystemInformer/SystemInformer.rc,1319
+Socket,,1,SystemInformer/SystemInformer.rc,1876
+Sockets,,1,SystemInformer/SystemInformer.rc,1168
+Source,,1,SystemInformer/SystemInformer.rc,444
+Speed,,1,SystemInformer/SystemInformer.rc,1327
+Speed:,,1,SystemInformer/SystemInformer.rc,1142
+Split total,,1,plugins/HardwareDevices/HardwareDevices.rc,135
+Standby,,2,SystemInformer/SystemInformer.rc,1280
+Start type:,,2,SystemInformer/SystemInformer.rc,249
+Started:,,2,SystemInformer/SystemInformer.rc,124
+Startup delay (seconds):,,1,plugins/OnlineChecks/OnlineChecks.rc,65
+Static,,190,SystemInformer/SystemInformer.rc,532
+Statistics,,5,SystemInformer/SystemInformer.rc,527
+Status,,2,SystemInformer/SystemInformer.rc,1845
+String Search,,2,SystemInformer/SystemInformer.rc,965
+StringFileInfo,,13,SystemInformer/version.rc,67
+Strings,,1,SystemInformer/SystemInformer.rc,953
+Subsequent failures:,,1,plugins/ExtendedServices/ExtendedServices.rc,85
+Subtype:,,1,plugins/ExtendedServices/ExtendedServices.rc,159
+Supported:,,1,SystemInformer/SystemInformer.rc,1599
+Symbol path:,,1,SystemInformer/SystemInformer.rc,757
+Symbols,,1,SystemInformer/SystemInformer.rc,714
+SysLink,,9,SystemInformer/SystemInformer.rc,112
+SysListView32,,96,SystemInformer/SystemInformer.rc,213
+SysTabControl32,,2,SystemInformer/SystemInformer.rc,1452
+SysTreeView32,,3,SystemInformer/SystemInformer.rc,1460
+System,,1,SystemInformer/SystemInformer.rc,1147
+System Information,,1,SystemInformer/SystemInformer.rc,657
+System Informer,,8,SystemInformer/SystemInformer.rc,222
+"System Informer has partnered with Hybrid-Analysis to provide automatic reputation analysis for processes, loaded modules, and services.",,1,plugins/OnlineChecks/OnlineChecks.rc,106
+System Informer is the default Task Manager:,,1,SystemInformer/SystemInformer.rc,756
+System Informer.exe,,1,SystemInformer/version.rc,76
+System calls,,3,SystemInformer/SystemInformer.rc,1196
+System calls delta,,1,SystemInformer/SystemInformer.rc,1161
+SystemInformer.ico,,1,SystemInformer/SystemInformer.rc,83
+TPM Data,,1,plugins/ExtendedTools/ExtendedTools.rc,428
+Tag,,1,SystemInformer/SystemInformer.rc,1456
+Taskbar configuration,,1,plugins/ToolStatus/ToolStatus.rc,74
+Technology,,1,SystemInformer/SystemInformer.rc,1323
+Temperature:,,3,plugins/ExtendedTools/ExtendedTools.rc,191
+Terminate,,3,SystemInformer/SystemInformer.rc,146
+Terminated due to job limits,,1,SystemInformer/SystemInformer.rc,535
+Terminated:,,1,SystemInformer/SystemInformer.rc,1058
+Text options:,,1,plugins/ToolStatus/ToolStatus.rc,90
+Text:,,2,SystemInformer/SystemInformer.rc,669
+Theme mode:,,1,SystemInformer/SystemInformer.rc,801
+Themes,,1,SystemInformer/SystemInformer.rc,796
+Third failure:,,1,plugins/ExtendedServices/ExtendedServices.rc,69
+Thread Context,,1,SystemInformer/SystemInformer.rc,1516
+Thread Stack,,1,SystemInformer/SystemInformer.rc,193
+Thread Stack Scan,,1,SystemInformer/SystemInformer.rc,207
+Thread Stacks,,1,SystemInformer/SystemInformer.rc,318
+Threads,,2,SystemInformer/SystemInformer.rc,161
+Time,,1,SystemInformer/SystemInformer.rc,537
+Time per frame,,1,plugins/ExtendedTools/ExtendedTools.rc,358
+Time until frame displayed,,1,plugins/ExtendedTools/ExtendedTools.rc,362
+Time until frame rendered,,1,plugins/ExtendedTools/ExtendedTools.rc,361
+Timeout (s):,,1,SystemInformer/SystemInformer.rc,673
+Timer,,1,SystemInformer/SystemInformer.rc,517
+Title:,,1,SystemInformer/SystemInformer.rc,667
+"To end the remote control session, press this key and the modifiers selected below:",,1,SystemInformer/SystemInformer.rc,1091
+Toggle elevation,,1,SystemInformer/SystemInformer.rc,388
+Token,,2,SystemInformer/SystemInformer.rc,340
+ToolStatus,,3,plugins/ToolStatus/version.rc,71
+Toolbar configuration,,1,plugins/ToolStatus/ToolStatus.rc,73
+Topology,,1,SystemInformer/SystemInformer.rc,1166
+Total,,1,SystemInformer/SystemInformer.rc,1246
+Total handles found:,,1,plugins/ExtendedTools/ExtendedTools.rc,646
+Total physical,,1,SystemInformer/SystemInformer.rc,1340
+Total processes,,1,SystemInformer/SystemInformer.rc,533
+Total usage,,1,plugins/HardwareDevices/HardwareDevices.rc,198
+Total:,,1,plugins/HardwareDevices/HardwareDevices.rc,181
+Totals,,1,SystemInformer/SystemInformer.rc,1215
+Tracing route to xyz...,,1,plugins/NetworkTools/NetworkTools.rc,109
+Translation,,13,SystemInformer/version.rc,84
+Transparent tray icons,,1,SystemInformer/SystemInformer.rc,788
+Tray Icon,,1,SystemInformer/SystemInformer.rc,780
+Tree,,1,SystemInformer/SystemInformer.rc,309
+Trigger,,1,plugins/ExtendedServices/ExtendedServices.rc,154
+Triggers,,1,plugins/ExtendedServices/ExtendedServices.rc,186
+Trusted Platform Module,,1,plugins/ExtendedTools/ExtendedTools.rc,477
+"Type the name of a program, folder, document, or Internet resource, and Windows will open it for you.",,1,SystemInformer/SystemInformer.rc,1685
+Type:,,5,SystemInformer/SystemInformer.rc,247
+UEFI Variable,,1,plugins/ExtendedTools/ExtendedTools.rc,414
+UIAccess:,,1,SystemInformer/SystemInformer.rc,441
+URL:,,1,SystemInformer/SystemInformer.rc,1632
+Unknown,,11,SystemInformer/SystemInformer.rc,348
+Unloaded Modules,,1,plugins/ExtendedTools/ExtendedTools.rc,95
+Update Key,,1,plugins/OnlineChecks/OnlineChecks.rc,88
+Update MaxMind License Key,,1,plugins/NetworkTools/NetworkTools.rc,118
+Updater,,3,plugins/Updater/version.rc,71
+Updater Options,,1,plugins/Updater/Updater.rc,55
+Uptime,,1,SystemInformer/SystemInformer.rc,1151
+Usage,,1,SystemInformer/SystemInformer.rc,1263
+Use default message,,1,plugins/ExtendedServices/ExtendedServices.rc,100
+Use dump storage stack,,1,SystemInformer/SystemInformer.rc,1755
+Use old colors (black background),,1,SystemInformer/SystemInformer.rc,1011
+Use screen overlay when finding windows,,1,plugins/ToolStatus/ToolStatus.rc,69
+Use snapshot picker when finding windows,,1,plugins/ToolStatus/ToolStatus.rc,71
+User SID:,,2,SystemInformer/SystemInformer.rc,345
+User account:,,1,SystemInformer/SystemInformer.rc,258
+User name:,,1,SystemInformer/SystemInformer.rc,382
+User time,,1,SystemInformer/SystemInformer.rc,538
+User time (period),,1,SystemInformer/SystemInformer.rc,540
+User:,,2,SystemInformer/SystemInformer.rc,343
+UserNotes,,3,plugins/UserNotes/version.rc,71
+Users List,,1,SystemInformer/SystemInformer.rc,329
+Utilization:,,1,SystemInformer/SystemInformer.rc,1141
+Value:,,5,SystemInformer/SystemInformer.rc,1539
+Values (one per line):,,1,plugins/ExtendedServices/ExtendedServices.rc,178
+VarFileInfo,,13,SystemInformer/version.rc,82
+Version:,,3,SystemInformer/SystemInformer.rc,113
+View,,5,SystemInformer/SystemInformer.rc,128
+Virtual size,,1,SystemInformer/SystemInformer.rc,1257
+Virtualization:,,2,SystemInformer/SystemInformer.rc,439
+Virtualized:,,1,SystemInformer/SystemInformer.rc,351
+VirusTotal,,1,plugins/OnlineChecks/OnlineChecks.rc,73
+Volume(s),,1,plugins/HardwareDevices/HardwareDevices.rc,150
+WS Watch,,1,plugins/ExtendedTools/ExtendedTools.rc,167
+WS watch is enabled.,,1,plugins/ExtendedTools/ExtendedTools.rc,172
+Wait Chain Traversal,,1,plugins/ExtendedTools/ExtendedTools.rc,369
+Watch for changes,,1,plugins/ExtendedTools/ExtendedTools.rc,397
+What is shared with Hybrid-Analysis,,1,plugins/OnlineChecks/OnlineChecks.rc,107
+Window,,1,plugins/WindowExplorer/WindowExplorer.rc,79
+WindowExplorer,,3,plugins/WindowExplorer/version.rc,71
+Windows,,3,plugins/ExtendedTools/ExtendedTools.rc,372
+"Winsider Seminars & Solutions, Inc.",,13,SystemInformer/version.rc,71
+With AVX state context registers,,1,SystemInformer/SystemInformer.rc,1738
+With Intel processor trace data,,1,SystemInformer/SystemInformer.rc,1740
+With code segments,,1,SystemInformer/SystemInformer.rc,1723
+With data segments,,1,SystemInformer/SystemInformer.rc,1703
+With filter triage data,,1,SystemInformer/SystemInformer.rc,1736
+With full auxiliary state,,1,SystemInformer/SystemInformer.rc,1726
+With full memory,,1,SystemInformer/SystemInformer.rc,1704
+With full memory info,,1,SystemInformer/SystemInformer.rc,1720
+With handle data,,1,SystemInformer/SystemInformer.rc,1705
+With indirectly referenced memory,,1,SystemInformer/SystemInformer.rc,1710
+With module headers,,1,SystemInformer/SystemInformer.rc,1734
+With private read-write memory,,1,SystemInformer/SystemInformer.rc,1716
+With private write-copy memory,,1,SystemInformer/SystemInformer.rc,1728
+With process and thread data,,1,SystemInformer/SystemInformer.rc,1714
+With thread info,,1,SystemInformer/SystemInformer.rc,1722
+With token information,,1,SystemInformer/SystemInformer.rc,1732
+With unloaded modules,,1,SystemInformer/SystemInformer.rc,1708
+Without auxiliary state,,1,SystemInformer/SystemInformer.rc,1724
+Without optional data,,1,SystemInformer/SystemInformer.rc,1718
+Worker Factory,,1,plugins/ExtendedTools/ExtendedTools.rc,105
+Worker thread context: Unknown,,1,plugins/ExtendedTools/ExtendedTools.rc,109
+Worker thread start: Unknown,,1,plugins/ExtendedTools/ExtendedTools.rc,108
+Working set,,1,SystemInformer/SystemInformer.rc,1252
+"Working set watch allows you to monitor page faults that occur in a process. You must enable WS watch for the process to start the monitoring. Once WS watch is enabled, it cannot be disabled.",,1,plugins/ExtendedTools/ExtendedTools.rc,170
+Write,,4,SystemInformer/SystemInformer.rc,932
+Write bytes,,3,SystemInformer/SystemInformer.rc,557
+Write bytes delta,,3,SystemInformer/SystemInformer.rc,1366
+Write bytes:,,2,SystemInformer/SystemInformer.rc,1354
+Write:,,1,plugins/HardwareDevices/HardwareDevices.rc,111
+Writes,,3,SystemInformer/SystemInformer.rc,556
+Writes delta,,2,SystemInformer/SystemInformer.rc,1365
+"You can configure devices for which notifications are displayed. Wildcards can be used, and ordering is considered.",,1,plugins/ExtendedNotifications/ExtendedNotifications.rc,90
+"You can configure processes for which notifications are displayed. Wildcards can be used, and ordering is considered.",,1,plugins/ExtendedNotifications/ExtendedNotifications.rc,56
+"You can configure services for which notifications are displayed. Wildcards can be used, and ordering is considered.",,1,plugins/ExtendedNotifications/ExtendedNotifications.rc,73
+Zeroed,,2,SystemInformer/SystemInformer.rc,1272
+Zombie Processes,,1,SystemInformer/SystemInformer.rc,362
+days,,1,plugins/ExtendedServices/ExtendedServices.rc,73
+include/phappres.h,,2,SystemInformer/SystemInformer.rc,11
+milliseconds,,1,plugins/ExtendedServices/ExtendedServices.rc,130
+minutes,,2,plugins/ExtendedServices/ExtendedServices.rc,76
+msctls_progress32,,3,SystemInformer/SystemInformer.rc,407
+phappres.h,,12,plugins/AgentTools/version.rc,12
+resource.h,,26,SystemInformer/SystemInformer.rc,3
+winres.h,,26,SystemInformer/SystemInformer.rc,10
+•  Files unknown to Hybrid-Analysis are uploaded for full analysis,,1,plugins/OnlineChecks/OnlineChecks.rc,109
+"•  SHA-256 hashes of scanned images, for reputation lookup",,1,plugins/OnlineChecks/OnlineChecks.rc,108
