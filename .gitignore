@@ -5,3 +5,6 @@ upstream/
 # Lotes de trabajo de cada tanda de traducción: material intermedio,
 # la memoria válida es el catálogo ya fusionado.
 traduccion/lotes/
+
+# Lotes de la fase 2 (código C): material intermedio como los de la fase 1.
+traduccion/lotes-codigo/
