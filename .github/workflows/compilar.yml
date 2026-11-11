@@ -17,7 +17,11 @@
 #   5. Compila EXACTAMENTE como el CI del proyecto original
 #      (su .github/workflows/msbuild.yml, job build-release): restaurar
 #      NuGet, build_init.cmd una vez y build_release.cmd.
-#   6. Sube los .zip de build/output como artefacto descargable.
+#   6. Sube lo aprovechable de build/output como artefacto descargable:
+#      los .zip portables Y el instalador .exe (el CI original solo
+#      sube los .zip; aquí se añade el *-setup.exe a petición de Gothan,
+#      porque la compilación Release lo genera igualmente y dejarlo en
+#      el runner sería tirarlo).
 #
 # Lo que NO hace, a propósito:
 #   - No compila el driver (KSystemInformer): sin la firma de los
@@ -107,12 +111,17 @@ jobs:
         run: build\build_release.cmd
 
       # --- 6. Subir el resultado ----------------------------------------------
-      # Los .zip que deja el build oficial en build/output (portable y
-      # setup, sin driver firmado, como el artefacto del CI original).
-      - name: 'Subir los zip en español'
+      # Lo que deja el build oficial en build/output y sirve para usar
+      # el programa: los .zip portables (por arquitectura y combinado),
+      # el instalador *-setup.exe que la compilación Release genera
+      # para cada canal (release y canary) y, de regalo en los .zip,
+      # símbolos y SDK. Todo sin el driver firmado de upstream.
+      - name: 'Subir el programa en español (zip e instalador)'
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # 7.0.2
         with:
           name: systeminformer-es-build-${{ github.sha }}
-          path: fuente/build/output/*.zip
+          path: |
+            fuente/build/output/*.zip
+            fuente/build/output/*-setup.exe
           if-no-files-found: error
           retention-days: 30
