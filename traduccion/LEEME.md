@@ -56,7 +56,8 @@
   traducida (`09d3b9a`), aplica el `.rc` y los parches de `codigo/`,
   verifica que la fuente quedó en español y compila con los mismos
   scripts del CI original (`build_init.cmd` + `build_release.cmd`),
-  dejando los .zip como artefacto descargable (30 días). Se lanza a
+  dejando los .zip portables y el instalador `.exe` como artefacto
+  descargable (30 días). Se lanza a
   mano desde la pestaña Actions («Compilar en español» → Run
   workflow) y también corre solo cuando cambia `traduccion/`.
   El resultado es un build **sin el driver firmado** de upstream

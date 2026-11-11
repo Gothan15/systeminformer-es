@@ -22,8 +22,8 @@ El detalle vive en `traduccion/LEEME.md`.
 La pestaña **Actions** de este repo tiene el workflow «Compilar en
 español»: clona el proyecto original en el commit exacto que se
 tradujo, le aplica los parches de `traduccion/` y lo compila con los
-scripts oficiales, dejando los .zip del programa como artefacto
-descargable. Sin driver firmado (la app funciona sin él) y sin tocar
+scripts oficiales, dejando como artefacto descargable los .zip
+portables del programa y su instalador `.exe`. Sin driver firmado (la app funciona sin él) y sin tocar
 un PC con Visual Studio.
 
 La medición previa está en **[INFORME-MEDIDA.md](INFORME-MEDIDA.md)**;
