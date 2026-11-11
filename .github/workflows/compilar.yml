@@ -1,0 +1,118 @@
+# =============================================================================
+# Compilar System Informer en español — GitHub Actions
+#
+# Este repositorio NO guarda el código completo de System Informer, solo
+# la traducción (catálogos + ficheros parcheados). Por eso el workflow:
+#
+#   1. Descarga ESTE repo (la traducción) en la raíz del workspace.
+#   2. Descarga el código original (winsiderss/systeminformer) en la
+#      carpeta «fuente», CLAVADO al commit contra el que se midió y se
+#      generó la traducción (ver INFORME-MEDIDA.md). Si upstream avanza,
+#      los parches siguen aplicando sobre la base exacta que se tradujo.
+#   3. Aplica los parches: el .rc en español y las copias parcheadas del
+#      código C se copian encima de su sitio en el árbol original.
+#   4. Comprueba que el parche entró de verdad (busca una cadena ya
+#      traducida en el árbol): si algo falló, el job muere aquí y no
+#      compila un upstream en inglés disfrazado.
+#   5. Compila EXACTAMENTE como el CI del proyecto original
+#      (su .github/workflows/msbuild.yml, job build-release): restaurar
+#      NuGet, build_init.cmd una vez y build_release.cmd.
+#   6. Sube los .zip de build/output como artefacto descargable.
+#
+# Lo que NO hace, a propósito:
+#   - No compila el driver (KSystemInformer): sin la firma de los
+#     mantenedores Windows no lo carga igualmente, y la app funciona
+#     sin él perdiendo solo las funciones avanzadas que dependen de él.
+#   - No usa los pasos de «exports» del CI original (reflow/validate):
+#     gestionan la ABI pública del proyecto; una traducción no la toca
+#     y saltarlos quita dos formas de que el job muera sin motivo.
+#   - No publica releases: el resultado es un artefacto del workflow,
+#     que caduca a los 30 días.
+#
+# Cómo lanzarlo: pestaña Actions del repo → «Compilar en español» →
+# Run workflow. También corre solo cuando cambia la traducción.
+# =============================================================================
+
+name: 'Compilar en español'
+
+on:
+  # Lanzamiento manual desde la pestaña Actions.
+  workflow_dispatch:
+  # Y automáticamente cuando cambia lo que se compila: la traducción
+  # aplicada o este mismo workflow.
+  push:
+    branches: ['main']
+    paths:
+      - 'traduccion/**'
+      - '.github/workflows/compilar.yml'
+
+jobs:
+  build-release:
+    # Mismo runner que usa el CI del proyecto original: Windows con
+    # Visual Studio 2026, que es lo que su toolchain espera por defecto.
+    runs-on: ['windows-2025-vs2026']
+    permissions:
+      contents: read
+
+    steps:
+      # --- 1. La traducción (este repo) -------------------------------------
+      - name: 'Descargar la traducción (este repo)'
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # 7.0.1
+
+      # --- 2. El código original, clavado a la base traducida ----------------
+      - name: 'Descargar el código original (base traducida)'
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # 7.0.1
+        with:
+          repository: 'winsiderss/systeminformer'
+          # Commit medido el 2026-11-10 (INFORME-MEDIDA.md): la base
+          # exacta sobre la que se generaron el .rc y los parches.
+          ref: '09d3b9a80e544b091bf5289a49693875d5c476ea'
+          path: 'fuente'
+
+      # --- 3. Aplicar los parches --------------------------------------------
+      # El .rc parcheado sustituye al de la app principal y cada fichero
+      # de traduccion/codigo/SystemInformer/ sustituye a su gemelo en la
+      # fuente. Nada más se toca: el resto del árbol queda como upstream.
+      - name: 'Aplicar la traducción sobre la fuente'
+        shell: pwsh
+        run: |
+          Copy-Item 'traduccion/SystemInformer.es.rc' 'fuente/SystemInformer/SystemInformer.rc' -Force
+          Copy-Item 'traduccion/codigo/SystemInformer/*' 'fuente/SystemInformer/' -Force
+          Write-Host 'Parches aplicados.'
+
+      # --- 4. Verificar que el parche entró ----------------------------------
+      # Una cadena inequívoca de la fase 2: si no está en el árbol, algo
+      # fue mal copiando y no merece la pena compilar.
+      - name: 'Verificar que la fuente quedó en español'
+        shell: pwsh
+        run: |
+          $ok = Select-String -Path 'fuente/SystemInformer/options.c' -SimpleMatch 'No se puede reemplazar el Administrador de tareas' -Quiet
+          if (-not $ok) { Write-Error 'El parche no se aplicó: options.c sigue en inglés.'; exit 1 }
+          Write-Host 'Verificación superada: la fuente está en español.'
+
+      # --- 5. Compilar como el CI original ------------------------------------
+      - name: 'Restaurar paquetes NuGet'
+        shell: cmd
+        working-directory: ${{ github.workspace }}\fuente
+        run: nuget restore .\packages.config -PackagesDirectory .\packages\
+
+      - name: 'Preparar herramientas de compilación (build_init)'
+        shell: cmd
+        working-directory: ${{ github.workspace }}\fuente
+        run: build\build_init.cmd
+
+      - name: 'Compilar Release (build_release)'
+        shell: cmd
+        working-directory: ${{ github.workspace }}\fuente
+        run: build\build_release.cmd
+
+      # --- 6. Subir el resultado ----------------------------------------------
+      # Los .zip que deja el build oficial en build/output (portable y
+      # setup, sin driver firmado, como el artefacto del CI original).
+      - name: 'Subir los zip en español'
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # 7.0.2
+        with:
+          name: systeminformer-es-build-${{ github.sha }}
+          path: fuente/build/output/*.zip
+          if-no-files-found: error
+          retention-days: 30
