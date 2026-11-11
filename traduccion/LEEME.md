@@ -51,10 +51,19 @@
 
 ## Pendiente
 
-- **Compilar y probar en Windows**: las copias parcheadas de `codigo/`
-  y el `.rc` están listos para copiarse sobre un clon del upstream y
-  compilar con Visual Studio en el PC de Gothan. Hasta entonces la
-  fase 2 está traducida y validada, pero no probada en ejecución.
+- **Compilar y probar**: ya no hace falta el PC de Gothan. El workflow
+  `.github/workflows/compilar.yml` clona el upstream clavado a la base
+  traducida (`09d3b9a`), aplica el `.rc` y los parches de `codigo/`,
+  verifica que la fuente quedó en español y compila con los mismos
+  scripts del CI original (`build_init.cmd` + `build_release.cmd`),
+  dejando los .zip como artefacto descargable (30 días). Se lanza a
+  mano desde la pestaña Actions («Compilar en español» → Run
+  workflow) y también corre solo cuando cambia `traduccion/`.
+  El resultado es un build **sin el driver firmado** de upstream
+  (funciona igual, sin las funciones avanzadas que dependen de él).
+  Hasta que ese primer build corra y se pruebe en Windows, la fase 2
+  está traducida y validada, pero no probada en ejecución. La vía del
+  PC con Visual Studio sigue existiendo como alternativa.
 - **Escalón 2** (si se pide): páginas de propiedades avanzadas
   (procesos, identificadores, token...) y la librería `phlib`, unas
   4.200 cadenas más según el informe de medición.

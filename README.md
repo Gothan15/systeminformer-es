@@ -15,9 +15,16 @@ traducirlo con un alcance cerrado y medido.
   `traduccion/codigo/` (1.330 apariciones en 26 ficheros).
 
 Entre las dos fases, la interfaz que se ve a diario está en español.
-Queda pendiente compilar y probar en Windows, y el escalón 2
-(propiedades avanzadas y `phlib`) si se quiere seguir. El detalle vive
-en `traduccion/LEEME.md`.
+El detalle vive en `traduccion/LEEME.md`.
+
+## Compilar sin instalar nada
+
+La pestaña **Actions** de este repo tiene el workflow «Compilar en
+español»: clona el proyecto original en el commit exacto que se
+tradujo, le aplica los parches de `traduccion/` y lo compila con los
+scripts oficiales, dejando los .zip del programa como artefacto
+descargable. Sin driver firmado (la app funciona sin él) y sin tocar
+un PC con Visual Studio.
 
 La medición previa está en **[INFORME-MEDIDA.md](INFORME-MEDIDA.md)**;
 el resumen corto:
