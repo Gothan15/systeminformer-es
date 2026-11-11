@@ -999,7 +999,7 @@ LONG CALLBACK PhpUnhandledExceptionCallback(
                 NULL,
                 MB_YESNO | MB_ICONWARNING | MB_DEFBUTTON2,
                 L"System Informer has crashed :(\r\n\r\n%s",
-                L"¿Desea crear un minivolcado en ProgramData\SystemInformer\CrashDumps?"
+                L"¿Desea crear un minivolcado en ProgramData\\SystemInformer\\CrashDumps?"
                 ) == IDYES)
             {
                 PhpCreateUnhandledExceptionCrashDump(ExceptionInfo, PhTriageDumpTypeMinimal);

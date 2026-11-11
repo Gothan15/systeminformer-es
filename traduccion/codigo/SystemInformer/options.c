@@ -3858,7 +3858,7 @@ typedef enum _PH_OPTIONS_HIGHLIGHTING_GROUP
 static COLOR_ITEM ColorItems[] =
 {
     COLOR_ITEM(SETTING_COLOR_OWN_PROCESSES, PH_OPTIONS_HIGHLIGHTING_GROUP_PROCESSES_AND_THREADS, L"Procesos propios", L"Procesos que se ejecutan con la misma cuenta de usuario que System Informer."),
-    COLOR_ITEM(SETTING_COLOR_SYSTEM_PROCESSES, PH_OPTIONS_HIGHLIGHTING_GROUP_PROCESSES_AND_THREADS, L"Procesos del sistema", L"Procesos que se ejecutan con la cuenta de usuario NT AUTHORITY\SYSTEM."),
+    COLOR_ITEM(SETTING_COLOR_SYSTEM_PROCESSES, PH_OPTIONS_HIGHLIGHTING_GROUP_PROCESSES_AND_THREADS, L"Procesos del sistema", L"Procesos que se ejecutan con la cuenta de usuario NT AUTHORITY\\SYSTEM."),
     COLOR_ITEM(SETTING_COLOR_SERVICE_PROCESSES, PH_OPTIONS_HIGHLIGHTING_GROUP_PROCESSES_AND_THREADS, L"Procesos de servicio", L"Procesos que alojan uno o más servicios."),
     COLOR_ITEM(SETTING_COLOR_BACKGROUND_PROCESSES, PH_OPTIONS_HIGHLIGHTING_GROUP_PROCESSES_AND_THREADS, L"Procesos en segundo plano", L"Procesos con prioridad de programación en segundo plano."),
     COLOR_ITEM(SETTING_COLOR_JOB_PROCESSES, PH_OPTIONS_HIGHLIGHTING_GROUP_PROCESSES_AND_THREADS, L"Procesos de trabajo", L"Procesos asociados a un trabajo."),

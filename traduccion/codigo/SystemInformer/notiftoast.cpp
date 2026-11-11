@@ -793,7 +793,7 @@ static NTSTATUS PhpToastNotificationThread(
                              L"<toast>"
                              L"    <visual>"
                              L"       <binding template=\"ToastImageAndText02\">"
-                             L"            <image id=\"1\" src=\".\ToastImage.png\" alt=\"gráfico rojo\"/>"
+                             L"            <image id=\"1\" src=\".\\ToastImage.png\" alt=\"gráfico rojo\"/>"
                              L"            <text id=\"1\">Título de ejemplo</text>"
                              L"            <text id=\"2\">Esta es una notificación emergente de ejemplo, ¡hola mundo!</text>"
                              L"        </binding>"

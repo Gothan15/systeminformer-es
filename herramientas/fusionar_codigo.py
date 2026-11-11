@@ -102,19 +102,34 @@ def desescapar_c(texto: str) -> str:
     )
 
 
+# Escapes de C VÁLIDOS que extraer_cadenas.py NO desescapa (solo toca
+# \n \t \r \" \\). Si una cadena del catálogo lleva uno de estos, en el
+# código venía escrito con UNA barra y es un escape de verdad: el sufijo
+# \b de los atajos de menú (retroceso separador) o el \U00002699 de los
+# iconos (nombre de carácter universal). Esos se devuelven tal cual.
+RE_ESCAPE_VALIDO = re.compile(r"\\[bfvaeuUxX0-7]")
+
+
 def escapar_c(original: str, traduccion: str) -> str:
     """Convierte la traducción en el interior de un literal C L"...".
 
-    Detalle delicado: algunas cadenas del catálogo conservan secuencias
-    con barra que venían del código y que los traductores mantuvieron
-    tal cual (el sufijo \\b de los atajos de menú, \\U00002699 de los
-    iconos). Esas secuencias se protegen con marcas temporales antes de
-    escapar, para devolverlas EXACTAMENTE como estaban y no duplicarles
-    la barra.
+    Detalle delicado (aprendido del error C4129/C2220 de la corrida
+    n.º 3 de Actions): una barra seguida de letra en el catálogo puede
+    ser dos cosas opuestas —
+      a) un escape C válido no desescapado al catalogar (\\b, \\U...):
+         se devuelve con su única barra, como estaba en el código;
+      b) una barra REAL de una ruta o cuenta (ProgramData\\SystemInformer,
+         NT AUTHORITY\\SYSTEM): al catalogar venía de «\\\\» en el código
+         y hay que volver a duplicarla; si se escribe con una sola,
+         el compilador lee \\S o \\C, no reconoce el escape y, con las
+         advertencias tratadas como errores, la compilación muere.
+    Por eso solo se protegen los escapes de la lista válida; cualquier
+    otra barra se escapa (se duplica) como las demás.
     """
     resultado = traduccion
     protegidas: dict[str, str] = {}
-    for i, secuencia in enumerate(sorted(set(re.findall(r"\\.", original)))):
+    for i, secuencia in enumerate(
+            sorted(set(RE_ESCAPE_VALIDO.findall(original)))):
         if secuencia in resultado:
             marca = f"\ue000{i}\ue001"
             protegidas[marca] = secuencia
